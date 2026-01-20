@@ -128,7 +128,7 @@ const Birthday = () => {
     // --- 7. Handle Secret Unlock ---
     const checkPasscode = () => {
         // CHANGE "love" TO WHATEVER PASSWORD YOU WANT
-        if (passcode.toLowerCase() === "qurat") {
+        if (passcode.toLowerCase() === "qalbi") {
             setIsUnlocked(true);
             setErrorMsg("");
         } else {
